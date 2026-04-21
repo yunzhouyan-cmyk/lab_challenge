@@ -1,0 +1,14 @@
+{
+  "emails": [
+    "sales@company.com",
+    "support@tech.cn",
+    "service@help.com",
+    "emergency@alert.com"
+  ],
+  "phones": [
+    "13800138000",
+    "13912345678",
+    "15098765432",
+    "17654321098"
+  ]
+}

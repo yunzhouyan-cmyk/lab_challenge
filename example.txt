@@ -1,0 +1,31 @@
+Contact information:
+
+Email addresses:
+- john.doe@example.com
+- jane.smith@company.cn
+- support@tech.org
+- admin@test.co.uk
+
+Phone numbers (China mobile):
+- 13800138000
+- 13912345678
+- 15098765432
+- 17654321098
+
+Other text with mixed content:
+Please contact our sales team at sales@business.com or call 15987654321 for inquiries.
+You can also reach support at help@service.cn (phone: 13765432109).
+
+Duplicate entries:
+- john.doe@example.com (same as above)
+- 13800138000 (same as above)
+
+Invalid phone numbers (should not be extracted):
+- 12000000000 (not a mobile prefix)
+- 12345678901 (invalid prefix)
+- 1380013800 (only 10 digits)
+
+Invalid emails (should not be extracted):
+- not-an-email
+- missing@domain
+- @nodomain.com
